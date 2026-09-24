@@ -4,6 +4,8 @@ Aplicação web para agendamento de corte de cabelo. Permite selecionar uma data
 
 Projeto desenvolvido durante o módulo de JavaScript da trilha da Rocketseat, com o objetivo de praticar conceitos como ES Modules, manipulação de DOM, requisições HTTP, manipulação de datas com Day.js e estruturação de código em módulos.
 
+![Preview do projeto](./screenshot.png)
+
 ## Tecnologias
 
 - JavaScript (ES Modules)
