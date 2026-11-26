@@ -33,7 +33,7 @@ Abra um **novo terminal** (na mesma pasta) e inicie o **Front-end**:
 - Cancelamento de agendamentos
 
 ## Créditos
-Projeto baseado no Cuso full stack - módulo de JavaScript da Rocketseat(https://www.rocketseat.com.br/).
+Projeto baseado no Curso full stack - módulo de JavaScript da Rocketseat(https://www.rocketseat.com.br/).
 
 ## Autora
 Gabriela Oliveira
