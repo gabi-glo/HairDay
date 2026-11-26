@@ -1,53 +1,41 @@
-# HairDay
+# HairDay 💇‍♀️
 
-Aplicação web para agendamento de corte de cabelo. Permite selecionar uma data, visualizar horários disponíveis, cadastrar clientes e cancelar agendamentos.
+O HairDay é uma aplicação web voltada para o gerenciamento de uma barbearia ou salão de beleza. O sistema  permite visualizar e gerenciar os horários de atendimento (manhã, tarde e noite) de forma simples e intuitiva.
 
-Projeto desenvolvido durante o módulo de JavaScript da trilha da Rocketseat, com o objetivo de praticar conceitos como ES Modules, manipulação de DOM, requisições HTTP, manipulação de datas com Day.js e estruturação de código em módulos.
+## 🚀 Como rodar localmente
 
-![Preview do projeto](./screenshot.png)
+Siga os passos abaixo para rodar o projeto na sua máquina. É necessário rodar o **Back-end** e o **Front-end** em terminais separados.
 
-## Tecnologias
+### 1. Clone o repositório
+Abra o terminal e execute:
+> git clone https://github.com/gabi-glo/HairDay.git
+> cd HairDay
 
-- JavaScript (ES Modules)
-- Webpack
-- Day.js
-- JSON Server
-- HTML e CSS
+### 2. Instale as dependências e inicie os servidores
+Execute o comando abaixo para instalar as dependências:
+> npm install
 
-## Como rodar localmente
+Agora, inicie o **Back-end**:
+> npm run server
 
-Clone o repositório:
+Abra um **novo terminal** (na mesma pasta) e inicie o **Front-end**:
+> npm run dev
 
-    git clone https://github.com/gabi-glo/HairDay.git
-    cd HairDay
+> **Nota importante:** O Back-end rodará na porta **3333** (`http://localhost:3333`). O Front-end abrirá automaticamente na porta **3000** (`http://localhost:3000`). Mantenha os dois terminais abertos.
 
-Instale as dependências:
-
-    npm install
-
-Rode o frontend em um terminal:
-
-    npm run dev
-
-Rode o backend em outro terminal:
-
-    npm run server
-
-Acesse http://localhost:3000 no navegador.
+## 📸 Preview
+![Preview do HairDay](./screenshot.png)
 
 ## Funcionalidades
-
 - Seleção de data
 - Exibição de horários disponíveis por período (manhã, tarde e noite)
 - Cadastro de agendamentos
 - Cancelamento de agendamentos
 
 ## Créditos
-
-Projeto baseado no módulo de JavaScript da [Rocketseat](https://www.rocketseat.com.br/).
+Projeto baseado no Cuso full stack - módulo de JavaScript da Rocketseat(https://www.rocketseat.com.br/).
 
 ## Autora
-
 Gabriela Oliveira
 https://github.com/gabi-glo
 
